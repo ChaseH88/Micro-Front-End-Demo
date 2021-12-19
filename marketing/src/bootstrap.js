@@ -1,15 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// Components
+import { App } from './app';
+
 const mount = (element) => {
-  ReactDOM.render(
-    <div>
-      <h1>
-        Marketing
-      </h1>
-    </div>,
-    element
-  )
+  ReactDOM.render(<App />, element)
 }
 
 if (process.env.NODE_ENV === 'development') {

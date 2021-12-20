@@ -1,10 +1,13 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-import { StylesProvider } from '@material-ui/core/styles';
+import { mount } from 'marketing/MarketingApp';
+
+// Components;
+import { MarketingApp } from '../components/MarketingApp';
 
 const App = () => (
   <div id='marketing-component'>
     <h1>Test</h1>
+    <MarketingApp />
   </div>
 )
 

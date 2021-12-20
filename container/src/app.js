@@ -1,5 +1,4 @@
 import React from 'react';
-import { mount } from 'marketing/MarketingApp';
 
 // Components;
 import { MarketingApp } from '../components/MarketingApp';
